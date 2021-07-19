@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint . && prettier --check .",
-    "format": "eslint --fix . && prettier --write ."
+    "format": "eslint --fix . && prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@prisma/client": "2.26.0",
@@ -19,6 +20,7 @@
     "@typescript-eslint/parser": "^4.28.4",
     "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "husky": "^7.0.0"
   }
 }
