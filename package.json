@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "dev": "npx ts-node ./src/index.ts",
+    "studio": "npx prisma studio",
     "lint": "eslint . && prettier --check .",
     "format": "eslint --fix . && prettier --write .",
     "prepare": "husky install"

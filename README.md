@@ -10,10 +10,15 @@ yarn install
 
 ## Start
 
-npx prisma init
-npx prisma migrate dev --name init
-npx ts-node index.ts
+```zsh
+  npx prisma init
+  cp .env.template .env
+  npx prisma migrate dev --name init
+  npx ts-node index.ts
+```
 
 ## Studio
 
-npx prisma studio
+```zsh
+  yarn studio
+```
