@@ -18,3 +18,7 @@
   # prisma studio
   npx prisma studio
 ```
+
+## Reference
+
+https://github.com/prisma/prisma-examples/tree/latest/typescript/graphql
